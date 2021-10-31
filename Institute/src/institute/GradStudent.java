@@ -25,7 +25,7 @@ public class  GradStudent extends Student{
         if(thesisTitle != null && ! thesisTitle.equals("")) {  
         this.thesisTitle = thesisTitle;
     } else {
-           throw new IllegalArgumentException("Поле не должно быть пустым");
+           throw new IllegalArgumentException("Поле не должно быть пустым!");
         }
     }
 
